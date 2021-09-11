@@ -1,9 +1,9 @@
---    Change database name
--- syntex:-  Sp_renamedb 'old_Name','New_Name'      
+/*    Change database name
+ syntex:-  Sp_renamedb 'old_Name','New_Name'      
 
---    Change Table Name
--- syntex:-  Sp_rename 'old_Name','New_Name'   
-
+    Change Table Name
+ syntex:-  Sp_rename 'old_Name','New_Name'   
+*/
 
 use Aditya_123
 
