@@ -1,15 +1,15 @@
---                                           Stored Procedure
+/*                                           Stored Procedure
 
--- A stored procedure is a set of structured query language (SQL) statements with an assigned name, which are stored in a relational database-
--- management system as a relational database management system as a group, so it can be reused and shared by multiple programs. 
+ A stored procedure is a set of structured query language (SQL) statements with an assigned name, which are stored in a relational database-
+ management system as a relational database management system as a group, so it can be reused and shared by multiple programs. 
 
---  Type of Stored Procedure
+  Type of Stored Procedure
 
--- System stored pocedures
--- Used-Defined stored procedure
+ System stored pocedures
+ Used-Defined stored procedure
 
--- Microsoft uses Sp_Prefix for system stored procedure
-
+ Microsoft uses Sp_Prefix for system stored procedure
+*/
 
 use Aditya_123
 
@@ -22,6 +22,7 @@ select Emp_Name, Gender from MyEmployee
 end
 
 --type of execute Sp(Stored procedure)
+
 spgetemployee
 exec spgetemployee
 execute spgetemployee
@@ -79,7 +80,4 @@ sp_helptext spGet_Employee_By_Id  --secure query
 --drop with stored procedrue
 
 drop procedure spGet_Employee_By_Id_Name
-
-
-
 
