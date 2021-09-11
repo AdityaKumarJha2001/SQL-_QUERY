@@ -37,10 +37,10 @@ insert into [order] values (666,'Usb',1,200,4);
 select * from Customer_tbl;
 select * from [Order];
 
-//How to drop foreign key with alter statement//
+--How to drop foreign key with alter statement
 
 alter table [Order] drop constraint FK__order__C_Id__14270015;
 
-//Creating foreign key in existing table alter statement//
+--Creating foreign key in existing table alter statement
 
 alter table [Order] add foreign key (C_Id) references Customer_tbl(C_Id);
