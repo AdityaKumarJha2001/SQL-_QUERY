@@ -1,16 +1,18 @@
---    -- On the other hand, Select Into statement can copy the data row from one table to another new table.
+/*      On the other hand, Select Into statement can copy the data row from one table to another new table.
 
---					                             INSERT INTO SELECT STATEMENT
--- In Sql we can copy the data rows from one table to another existing table.
---Copy from Source table and paste to Target table both action are exicuted in a single sql statement.
---The source table and target table must have similar table defination,(same columns with same datatype).
---Any existing rows or records in target table remain un-affected.
+					                             INSERT INTO SELECT STATEMENT
+ In Sql we can copy the data rows from one table to another existing table.
+Copy from Source table and paste to Target table both action are exicuted in a single sql statement.
+The source table and target table must have similar table defination,(same columns with same datatype).
+Any existing rows or records in target table remain un-affected.
 
---Example:-
---		insert into Target_Table select * from Source_Table
---		insert into Target_Table(Column1,Column2) select column1,column2 from Source_Table
+Example:-
+		insert into Target_Table select * from Source_Table
+		insert into Target_Table(Column1,Column2) select column1,column2 from Source_Table
 
---		we can copy all columns or specific columns from  Source Table to Target Table.
+		we can copy all columns or specific columns from  Source Table to Target Table.
+*/
+
 use Aditya_123
 
 
