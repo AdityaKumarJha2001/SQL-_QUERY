@@ -1,11 +1,12 @@
---                                            TYPES OF SUBQUERIES IN SQL
+/*                                            TYPES OF SUBQUERIES IN SQL
  
 
--- SCALAR SUBQUERIES :- sub queries that return one row to the outer Sql statement
---						operators:  =   >   <  >=   <=   !=  
+ SCALAR SUBQUERIES :- sub queries that return one row to the outer Sql statement
+						operators:  =   >   <  >=   <=   !=  
 
--- MULTIVALUED SUBQURIES :- subquries that returns mopre than one row to the outer sql statement.
---						operator:  in, any, all
+ MULTIVALUED SUBQURIES :- subquries that returns mopre than one row to the outer sql statement.
+						operator:  in, any, all
+*/
 
 use Aditya_123
 
