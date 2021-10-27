@@ -7,7 +7,7 @@ _ :- The underscore represents a single character
 [] :- For multiple character
 
 Where customereName LIKE 'a%' Finds any values that starts with 'a'
-Where customereName LIKE 'a%' Finds any values that ends with 'a'
+Where customereName LIKE '%a' Finds any values that ends with 'a'
 Where customereName LIKE '%or%' Finds any values that have 'or' in any position
 Where customereName LIKE '_r%' Finds any values that have 'r' in the second position
 Where customereName LIKE 'a%o' Finds any values that starts with 'a' and end with o
